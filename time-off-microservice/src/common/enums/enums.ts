@@ -1,0 +1,19 @@
+// ../common/enums/enums.ts
+
+export enum LeaveType {
+  SICK = 'SICK',
+  VACATION = 'VACATION',
+  PERSONAL = 'PERSONAL',
+  UNPAID = 'UNPAID',
+  ANNUAL = 'ANNUAL',
+}
+
+export enum RequestStatus {
+  PENDING = 'PENDING',
+  PENDING_APPROVAL = 'PENDING_APPROVAL',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  APPROVAL_FAILED = 'APPROVAL_FAILED',
+  CANCEL_REQUESTED = 'CANCEL_REQUESTED',
+  CANCELLED = 'CANCELLED',
+}
